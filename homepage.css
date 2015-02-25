@@ -2,6 +2,14 @@ html {
 	font-family: Arial;
 }
 
+html, body, #container { height: 100%;}
+
+body > #container {height: auto; min-height: 100%;}
+
+#content{
+	padding-bottom: 3em;
+}
+
 .top{
 	display: inline;
 	text-align: right;
@@ -24,12 +32,68 @@ html {
 	padding: 5px 5px;
 }
 
+.footer{
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 2.6em;
+	margin-top: -2.6em;
+	/*margin: 389px 0 0 0;*/
+	height: 40px;
+	padding: 0;
+	background-color: #f2f2f2;
+	border: 1px solid #e4e4e4;
+	overflow: hidden;
+}
+
+.footer ul li{
+	display: inline;
+}
+
+.footer ul li a{
+	color: #404040;
+	font-size: 12px;
+
+}
+
+
+#left{
+	float: left;
+	padding-left: 27px;
+	padding-top: 11px;
+}
+
+#left li a{
+	padding-right: 25px;
+	text-decoration: none;
+}
+
+#left li a:hover{
+	text-decoration: underline;
+}
+
+#right{
+	float: right;
+	padding-right: 27px;
+	padding-top: 11px;
+
+}
+
+#right li a{
+	padding-left: 25px;
+	text-decoration: none;
+}
+
+#right li a:hover{
+	text-decoration: underline;
+}
+
 #signIn{
 	background-color: blue;
 	border: 9px solid blue;
 	color: #ffffff;
 	font-weight: bold;
-	height: 5px;
+
 
 }
 
@@ -39,7 +103,7 @@ html {
 
 .top ul li a:hover{
 	text-decoration: underline;
-	font-weight: bold;
+
 }
 
 #menu{
