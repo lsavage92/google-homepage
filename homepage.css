@@ -55,7 +55,19 @@ body > #container {height: auto; min-height: 100%;}
 	font-size: 12px;
 
 }
+.button{
+	background-color: #f2f2f2;
+	border: 1px solid #e4e4e4;
+	border-radius: 2px;
+	color: #595959;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 6px 5px;
+	margin-right: 6.5px;
+	margin-left: 6.5px;
 
+
+}
 
 #left{
 	float: left;
@@ -143,4 +155,6 @@ div form{
 .googleSearch{
 	text-align: center;
 }
-
+.googleSearch form{
+	margin-top: 11px;
+}
