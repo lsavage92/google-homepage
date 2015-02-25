@@ -1,0 +1,82 @@
+html {
+	font-family: Arial;
+}
+
+.top{
+	display: inline;
+	text-align: right;
+
+}
+
+.top ul{
+	padding: 0;
+	margin: 0;
+}
+
+.top ul li{
+	display: inline;
+}
+
+.top ul li a{
+	text-decoration: none;
+	color: #404040;
+	font-size: 12px;
+	padding: 5px 5px;
+}
+
+#signIn{
+	background-color: blue;
+	border: 9px solid blue;
+	color: #ffffff;
+	font-weight: bold;
+	height: 5px;
+
+}
+
+#signIn:hover{
+	text-decoration: none;
+}
+
+.top ul li a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+#menu{
+	display: inline;
+}
+
+.logo img{
+	clear: both;
+    display: block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+.logo{
+	margin-top: 200px;
+
+}
+
+.textBox{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+
+}
+
+
+/*div{
+	border: 1px solid black;
+}*/
+
+div form{
+	margin-top: 25px;
+}
+
+.googleSearch{
+	text-align: center;
+}
+
